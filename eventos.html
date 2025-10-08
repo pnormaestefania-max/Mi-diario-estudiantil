@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Eventos en JavaScript</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Vinculación del CSS externo -->
+</head>
+<body>
+
+    <h1>Eventos en JavaScript</h1>
+
+    <table>
+        <tr>
+            <th>Evento</th>
+            <th>Descripción</th>
+            <th>Ejemplo de Uso</th>
+        </tr>
+        <tr>
+            <td>onclick</td>
+            <td>Se activa cuando el usuario hace clic sobre un elemento.</td>
+            <td>
+                <code>
+                &lt;button onclick="alert('Hola!')"&gt;Haz clic&lt;/button&gt;
+                </code>
+            </td>
+        </tr>
+        <tr>
+            <td>onmouseover</td>
+            <td>Se activa cuando el puntero pasa por encima de un elemento.</td>
+            <td>
+                <code>
+                &lt;div onmouseover="this.style.background='yellow'"&gt;Pasa el mouse aquí&lt;/div&gt;
+                </code>
+            </td>
+        </tr>
+        <tr>
+            <td>onkeydown</td>
+            <td>Se activa cuando el usuario presiona una tecla.</td>
+            <td>
+                <code>
+                &lt;input onkeydown="console.log('Tecla presionada')"&gt;
+                </code>
+            </td>
+        </tr>
+        <tr>
+            <td>onload</td>
+            <td>Se ejecuta cuando la página o un recurso ha terminado de cargarse.</td>
+            <td>
+                <code>
+                &lt;body onload="alert('Página cargada')"&gt;&lt;/body&gt;
+                </code>
+            </td>
+        </tr>
+        <tr>
+            <td>onchange</td>
+            <td>Se ejecuta cuando cambia el valor de un campo de formulario.</td>
+            <td>
+                <code>
+                &lt;input type="text" onchange="alert('Texto cambiado')"&gt;
+                </code>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

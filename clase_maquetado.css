@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parcial{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    background-color: lightgray;
+    padding: 20px;
+    border:2px solid  black;
+}
+.web{
+    background-color: lightcoral;
+    padding: 20px;
+    border: 2px solid black;
+}
+.eventos{
+    background-color: rgb(6, 172, 45);
+    padding: 20px;
+    border: 2px solid rgb(72, 1, 1);
+}
+.eventos{
+    background-color: rgb(230, 3, 211);
+    padding: 20px;
+    border: 2px solid rgb(5, 82, 225);
+}

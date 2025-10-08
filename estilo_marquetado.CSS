@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.padre{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    background-color: lightgray;
+    padding: 20px;
+    border:2px solid  black;
+}
+.hijo1{
+    background-color: lightcoral;
+    padding: 20px;
+    border: 2px solid black;
+}
+.hijo2{
+    background-color: rgb(36, 10, 233);
+    padding: 20px;
+    border: 2px solid black;
+}
+.hijo3{
+    background-color: rgb(234, 95, 8);
+    padding: 20px;
+    border: 2px solid black;
+}
+.hijo4{
+    background-color: rgb(250, 8, 149);
+    padding: 20px;
+    border: 2px solid black;
+}
+.hijo5{
+    background-color: rgb(45, 6, 97);
+    padding: 20px;
+    border: 2px solid black;
+}
+.hijo6{
+    background-color: rgb(175, 9, 9);
+    padding: 20px;
+    border: 2px solid black;
+}
+.hijo7{
+    background-color: rgb(225, 207, 11);
+    padding: 20px;
+    border: 2px solid black;
+}
+.hijo8{
+    background-color: rgb(167, 236, 55);
+    padding: 20px;
+    border: 2px solid black;
+}
+.hijo9{
+    background-color: rgb(1, 63, 20);
+    padding: 20px;
+    border: 2px solid black;
+}
+.hijo10{
+    background-color: rgb(89, 69, 80);
+    padding: 20px;
+    border: 2px solid black;
+}
